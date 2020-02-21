@@ -1,6 +1,6 @@
 site_name: Docker Guatemala
 
-repo_url: https://github.com/dockerguatemala/webpage.git
+repo_url: https://github.com/dockerguatemala/home.git
 
 theme:
   name: material
