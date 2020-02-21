@@ -1,0 +1,27 @@
+site_name: Docker Guatemala
+
+repo_url: https://github.com/dockerguatemala/webpage.git
+
+theme:
+  name: material
+  palette:
+    primary: blue grey
+
+  logo: 'img/logo.png'
+
+
+plugins:
+  - search
+  #- markdownextradata: {}
+markdown_extensions:
+  - codehilite
+  - footnotes
+  - admonition
+  - toc:
+        permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.mark
+
+nav:
+  - Home: index.md
